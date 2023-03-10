@@ -9,7 +9,7 @@ class Calculate {
 
     // class Calculate를 생성한다.
     // -> int n1, int n2의 값을 받아와서 계산하기
-    static int add(int n1, int n2) {
+    public static int add(int n1, int n2) {
         //	더하기
         return n1 + n2;
     }
