@@ -33,7 +33,8 @@ class Calculate {
         if(n2!=0) {
             return n1 / n2;
         }
-        else break;
+        else 
+         return 0;
     }
 
     static int pow(int n1, int n2) {
