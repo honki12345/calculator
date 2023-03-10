@@ -23,6 +23,7 @@ class Calculate {
 
     static int div(int n1, int n2) {
         // 나누기
+        return (n1/n2);
     }
 
     static int pow(int n1, int n2) {
