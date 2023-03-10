@@ -24,6 +24,10 @@ class Calculate {
 
     static int div(int n1, int n2) {
         // 나누기
+        if(n2!=0) {
+            return n1 / n2;
+        }
+        else break;
     }
 
     static int pow(int n1, int n2) {
