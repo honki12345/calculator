@@ -18,8 +18,9 @@ class Calculate {
         //	빼기
     }
 
-    static int mul(int n1, int n2) {
+    public static int mul(int n1, int n2) {
         //	곱하기
+        return n1 * n2;
     }
 
     static int div(int n1, int n2) {
