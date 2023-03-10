@@ -37,7 +37,7 @@ class Calculate {
     }
 
     static int pow(int n1, int n2) {
-        // 거듭제곱
+        return Math.pow(n1, n2);
     }
 
 }
