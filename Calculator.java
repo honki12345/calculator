@@ -13,6 +13,11 @@ class Calculate {
         //	더하기
     }
 
+    /**
+     * @param n1
+     * @param n2
+     * @return n1과 n2에 대해서 뺴기를 수행하는 함수입니다.
+     */
     static int sub(int n1, int n2) {
         return n1 - n2;
     }
