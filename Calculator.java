@@ -35,7 +35,9 @@ public class Calculator {
 
     public static void main(String[] args) {
         // 값을 받기 위해서 Scanner를 생성
-        Scanner scan = new Scanner(System.in);
+        try (Scanner scan = new Scanner(System.in);) {
+
+
         // 클래스 변수 선언
         Calculate calc = new Calculate();
 
@@ -53,6 +55,9 @@ public class Calculator {
         // second number
         num2 = scan.nextInt();
 
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
         // calculate part
         switch (oper) {
             // add
@@ -84,6 +89,7 @@ public class Calculator {
                 System.out.println(
                     "Answer -> " + num1 + " ^ " + num2 + " = " + Calculate.pow(num1, num2));
                 break;
+            default:
         }
     }
 }
