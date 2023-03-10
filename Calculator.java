@@ -9,16 +9,23 @@ class Calculate {
 
     // class Calculate를 생성한다.
     // -> int n1, int n2의 값을 받아와서 계산하기
-    static int add(int n1, int n2) {
+    public static int add(int n1, int n2) {
         //	더하기
+        return n1 + n2;
     }
 
+    /**
+     * @param n1
+     * @param n2
+     * @return n1과 n2에 대해서 뺴기를 수행하는 함수입니다.
+     */
     static int sub(int n1, int n2) {
-        //	빼기
+        return n1 - n2;
     }
 
-    static int mul(int n1, int n2) {
+    public static int mul(int n1, int n2) {
         //	곱하기
+        return n1 * n2;
     }
 
     static int div(int n1, int n2) {
@@ -30,9 +37,11 @@ class Calculate {
     }
 
     static int pow(int n1, int n2) {
+
         // 거듭제곱
         int result = Math.pow(n1,n2);
         return result;
+
     }
 
 }
